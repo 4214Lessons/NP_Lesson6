@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{9F41CEFA-F08E-4198-8DF0-26428FF24F66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{9F41CEFA-F08E-4198-8DF0-26428FF24F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Http_Listener", "Http_Listener\Http_Listener.csproj", "{201228B3-8B72-44A1-99B8-D3F4013F5520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Http_Client", "Http_Client\Http_Client.csproj", "{EC7FAE35-10B5-46EE-97F9-28C1E4BFD6EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9F41CEFA-F08E-4198-8DF0-26428FF24F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F41CEFA-F08E-4198-8DF0-26428FF24F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F41CEFA-F08E-4198-8DF0-26428FF24F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201228B3-8B72-44A1-99B8-D3F4013F5520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201228B3-8B72-44A1-99B8-D3F4013F5520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201228B3-8B72-44A1-99B8-D3F4013F5520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201228B3-8B72-44A1-99B8-D3F4013F5520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7FAE35-10B5-46EE-97F9-28C1E4BFD6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7FAE35-10B5-46EE-97F9-28C1E4BFD6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7FAE35-10B5-46EE-97F9-28C1E4BFD6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7FAE35-10B5-46EE-97F9-28C1E4BFD6EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
